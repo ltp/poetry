@@ -1,0 +1,1 @@
+perl -e 'sub o{chomp(@a=`cat /usr/share/dict/words`);&q(@a)}sub p{@b=qw(in the on a for is);&q(@b)}sub q{print $_[rand(scalar @_)]," "}{$d=rand 2;{p o p o o;redo if $d-->0}print "\n";redo if $e++<7}'
